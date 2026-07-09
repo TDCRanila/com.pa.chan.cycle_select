@@ -76,6 +76,15 @@
 
     model.selection_subscriber = function(a_payload) 
     {
+        // Upon deselecting units.
+        if (a_payload == null)
+        {
+            reset_selection_state();
+            should_prevent_selection_state_reset = false;
+            return;
+        }
+        
+        // When selecting units - via box-select, hotkeys, recalling control groups, or clicking.
         if (a_payload && model.mode() != 'select') 
         {
             if (!should_prevent_selection_state_reset)
@@ -94,6 +103,7 @@
             }
 
             should_prevent_selection_state_reset = false;
+            return;
         }
     };
 
