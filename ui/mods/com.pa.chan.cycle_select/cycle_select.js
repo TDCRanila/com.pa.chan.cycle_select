@@ -16,7 +16,7 @@
 
         api.settings.definitions.keyboard.settings.cycle_forward_through_current_selection = 
         {
-            title: 'Cycle Forward Through Current Selection',
+            title: 'Cycle Forward Through Selection',
             type: 'keybind',
             set: hotkey_set_name,
             display_group: 'mods',
@@ -38,7 +38,7 @@
 
         api.settings.definitions.keyboard.settings.cycle_backwards_through_current_selection = 
         {
-            title: 'Cycle Backwards Through Current Selection',
+            title: 'Cycle Backwards Through Selection',
             type: 'keybind',
             set: hotkey_set_name,
             display_group: 'mods',
