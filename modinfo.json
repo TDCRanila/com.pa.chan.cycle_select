@@ -1,0 +1,31 @@
+{
+    "context": "client",
+    "identifier": "com.pa.chan.cycle_select",
+    "display_name": "Cycle Select",
+    "description": "CycleSelect / TabSelect provides the ability to 'cycle-select' or 'tabbing' between multiple unit types of the current selection via new a hotkey.",
+    "author": "Chan",
+    "version": "1.0.0",
+    "build": "124664",
+    "date": "2026-07-14",
+    "signature": " ",
+    "forum": "https://github.com/TDCRanila/com.pa.chan.cycle_select/discussions",
+    "github": "https://github.com/TDCRanila/com.pa.chan.cycle_select",
+    "category":
+    [
+        "ui",
+        "settings",
+        "classic",
+        "titans"
+    ],
+    "icon": "https://raw.githubusercontent.com/TDCRanila/com.pa.chan.cycle_select/7626d7eeac1f095e3d118efe2c49bede9f89008b/media/icon.gif",
+    "scenes": {
+        "global_mod_list": 
+        [
+            "coui://ui/mods/com.pa.chan.cycle_select/cycle_select.js"
+        ],
+        "live_game": 
+        [
+            "coui://ui/mods/com.pa.chan.cycle_select/live_game.js"
+        ]
+    }
+}
