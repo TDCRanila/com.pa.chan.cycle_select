@@ -4,7 +4,7 @@
 
 A simple in-game UI/UX mod for [*Planetary Annihilation: Titans*.](https://planetaryannihilation.com/)
 
-It **provides the ability to '*cycle-select*' or 'tabbing' between multiple unit types of the current selection** via a new hotkey named; "Cycle Select Through Selection". Either by going forwards or backwards in the selection list."
+It **provides the ability to '*cycle-select*' or 'tabbing' between multiple unit types of the current selection** via a new hotkey named; "Cycle (Forward/Backwards) Through Selection".
 
 ## Motivation
 
